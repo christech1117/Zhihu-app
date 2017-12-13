@@ -168,7 +168,7 @@ return [
          * Package Service Providers...
          */
         Naux\Mail\SendCloudServiceProvider::class,
-        
+        Overtrue\LaravelUEditor\UEditorServiceProvider::class,
         /*
          * Application Service Providers...
          */
