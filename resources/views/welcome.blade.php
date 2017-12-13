@@ -71,8 +71,8 @@
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">登入</a>
-                        <a href="{{ route('register') }}">註冊</a>
+                        <a href="{{ route('login') }}">登 入</a>
+                        <a href="{{ route('register') }}">註 冊</a>
                     @endauth
                 </div>
             @endif
